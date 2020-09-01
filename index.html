@@ -1,0 +1,16 @@
+<link href="style.css" type="text/css" rel="stylesheet" />
+<script src="script.js"></script>
+
+<form>
+
+    <div><label>Table Size</label>
+    <input type="text" id="TableSize" required>
+</div>
+
+<div><label>Max Active</label>
+    <input type="text" id="MaxActive" required>
+</div>
+<div><input type="button" value="Create Table" id="CreateTable" onclick="GridTask.Game.createTable()">
+    <input type="button" value="Reset" id="Reset" onclick="GridTask.Game.reset()"></div>
+</form>
+<div id="table"></div>
